@@ -50,15 +50,40 @@ document.addEventListener('DOMContentLoaded', function () {
                 badgeText: 'Fresh Frozen Tech',
                 products: [
                     {
-                        id: 'frozen-v3',
-                        name: 'Frozen 90u',
-                        flag: '❄️',
-                        farm: 'FROZEN LAB',
+                        id: 'frozen-gmo-marocain',
+                        name: '🌿 GMO – Marocain',
+                        flag: '🇲🇦',
+                        farm: '🏹 HUNTER SELECTION',
                         promoEligible: true,
                         type: 'Hash',
-                        image: 'ProductFrozen.jpg',
-                        description: 'Extraction à froid, terpènes préservés.',
-                        tarifs: [{ weight: '5g', price: 70.00 }, { weight: '10g', price: 130.00 }]
+                        image: 'ProductGmo.jpg',
+                        video: 'VideoGmo.mov',
+                        description: 'Un concentré issu de fleurs GMO travaillées en fresh frozen, pour préserver au maximum les terpènes et la puissance aromatique.\nRésultat : un produit riche, expressif et ultra savoureux.\n\n👃 Arômes\nDès l’ouverture, c’est intense et profond :\n🧄 Notes aillées / funky typiques de la GMO\n🌍 Fond terreux et légèrement épicé\n🌲 Pointe résineuse bien marquée\n🍪 Subtile touche sucrée en arrière-plan\n\nProfil terpène puissant, qui reste longtemps en bouche.\n\n👁 Aspect\n• Texture compacte et résineuse\n• Couleur brune à dorée selon la méthode\n• Surface légèrement brillante\n• Odeur forte et caractéristique\n\nOn sent le travail sur la matière première, surtout avec le procédé fresh frozen qui conserve les arômes.\n\n💨 Effets\n⚡ Montée cérébrale marquée\n😌 Relaxation corporelle progressive\n🌙 Idéal en fin de journée\n\nPuissant, enveloppant, avec un vrai caractère.',
+                        tarifs: [
+                            { weight: '5g', price: 60.00 },
+                            { weight: '10g', price: 110.00 },
+                            { weight: '20g', price: 200.00 },
+                            { weight: '50g', price: 400.00 },
+                            { weight: '100g', price: 700.00 }
+                        ]
+                    },
+                    {
+                        id: 'grap-gaz-frozen-premium',
+                        name: '🍇GRAP GAZ⛽️X BLEU PINT🫐',
+                        flag: '🇲🇦',
+                        farm: 'INTHEWEST FARM',
+                        promoEligible: true,
+                        type: 'Hash',
+                        image: 'ProductGrap.jpg',
+                        video: 'VideoGrap.mov',
+                        description: 'Un produit marocain haut de gamme, travaillé avec soin et précision.\nFrozen Premium incarne la nouvelle génération : pureté, puissance et finition premium.\n\n🧊 Profil frais & clean\nNotes glacées, légèrement sucrées, avec une touche résineuse intense.\nUne fumée douce, épaisse et parfaitement maîtrisée.\n\n💎 Qualité Premium – In The West Farm\nAspect givré, texture compacte, travail soigné et sélection rigoureuse.\n\n🔥 Effet profond & chill\nRelaxation intense, vibes posées, idéal pour décrocher et profiter du moment.\n\nFrozen Premium\n👉 Fraîcheur extrême\n👉 Savoir-faire marocain 🇲🇦\n👉 Niveau premium garanti',
+                        tarifs: [
+                            { weight: '5g', price: 80.00 },
+                            { weight: '10g', price: 150.00 },
+                            { weight: '20g', price: 290.00 },
+                            { weight: '30g', price: 420.00 },
+                            { weight: '50g', price: 550.00 }
+                        ]
                     }
                 ]
             },
@@ -68,15 +93,60 @@ document.addEventListener('DOMContentLoaded', function () {
                 badgeText: 'High Voltage',
                 products: [
                     {
-                        id: 'static-clean',
-                        name: 'Static Sift',
-                        flag: '⚡️',
-                        farm: 'STATIC ROOM',
+                        id: 'white-truffle-calitefarm',
+                        name: '🍄 White Truffle 🍄',
+                        flag: '🇺🇸',
+                        farm: '👨🏻‍🌾 CALITEFARM',
                         promoEligible: true,
-                        type: 'Hash',
-                        image: 'ProductStatic.jpg',
-                        description: 'Zéro résidu, pureté maximale.',
-                        tarifs: [{ weight: '2g', price: 50.00 }, { weight: '5g', price: 110.00 }]
+                        type: 'Weed',
+                        image: 'ProductTruf.png',
+                        video: 'VideoTruf.mov',
+                        description: 'White Truffle, c’est l’élégance brute. Une strain riche, crémeuse et profondément terreuse, avec un profil aromatique sophistiqué qui marque dès la première ouverture.\n\n👃 Arômes\nÀ l’ouverture, c’est intense et raffiné :\n🍄 Notes terreuses profondes\n🧄 Légère touche aillée / funky\n🌰 Fond crémeux et légèrement sucré\n🌲 Subtil côté boisé\n\nUn mélange complexe, presque gastronomique — ça ne ressemble pas aux variétés classiques.\n\n👁 Aspect\n• Têtes très denses et compactes\n• Couleur vert foncé avec nuances violettes possibles\n• Pistils orangés bien présents\n• Couche épaisse de trichomes blancs → effet “givré”\n\nVisuellement, c’est premium. Résine abondante, texture collante.\n\n💨 Effets\nWhite Truffle, c’est :\n😌 Relaxation corporelle profonde\n🧠 Sensation mentale apaisée mais lucide\n🌙 Parfaite pour fin de journée / soirée chill\n\nPuissante mais équilibrée. Elle enveloppe sans écraser.',
+                        tarifs: [
+                            { weight: '1g', price: 50.00 },
+                            { weight: '5g', price: 160.00 },
+                            { weight: '10g', price: 310.00 },
+                            { weight: '20g', price: 600.00 },
+                            { weight: '30g', price: 850.00 },
+                            { weight: '50g', price: 1100.00 }
+                        ]
+                    },
+                    {
+                        id: 'sour-cake-calitefarm',
+                        name: '🧁 Sour Cake 🧁',
+                        flag: '🇺🇸',
+                        farm: '👨🏻‍🌾 CALITEFARM',
+                        promoEligible: true,
+                        type: 'Weed',
+                        image: 'ProductSour.png',
+                        video: 'VideoSour.mov',
+                        description: 'Sour Cake, c’est la rencontre explosive entre une acidité citronnée ultra vive et une douceur pâtissière crémeuse.\nUne variété qui tape direct au nez avant même d’avoir ouvert le pochon.\n\n👃 Arômes\nDès l’ouverture, ça claque :\n🍋 Notes citronnées et diesel légèrement piquantes\n🍰 Fond sucré type gâteau vanillé\n🌲 Petite touche terreuse qui équilibre le tout\n\nUn profil terpène puissant, complexe, qui reste longtemps en bouche.\n\n👁 Aspect\n• Têtes compactes et résineuses\n• Trichomes bien givrés\n• Reflets verts clairs avec parfois des nuances orangées\n• Manucure propre, dense et brillante\n\nVisuellement, c’est lourd. Ça annonce la couleur direct.\n\n💨 Effets\nSour Cake offre un high progressif :\n⚡ Boost mental énergisant au départ\n😌 Puis une détente corporelle maîtrisée\n🎯 Idéal pour chiller, créer ou profiter entre amis\n\nNi trop assommante, ni trop speed — un équilibre bien dosé.',
+                        tarifs: [
+                            { weight: '1g', price: 50.00 },
+                            { weight: '5g', price: 160.00 },
+                            { weight: '10g', price: 310.00 },
+                            { weight: '20g', price: 600.00 },
+                            { weight: '30g', price: 850.00 },
+                            { weight: '50g', price: 1100.00 }
+                        ]
+                    },
+                    {
+                        id: 'static-shift-us',
+                        name: '🍓 Fruty 🍒',
+                        flag: '🇺🇸',
+                        farm: '👨🏻‍🌾 CALITEFARM',
+                        promoEligible: true,
+                        type: 'Static',
+                        image: 'ProductSt1.png',
+                        video: 'VideoSt.mov',
+                        description: 'Prépare-toi à un véritable choc fruité venu de Californie.\nUne strain US premium qui frappe fort dès la première odeur.\n\n🍓 Profil ultra fruity\nFruits rouges sucrés, notes bonbon acidulées, fumée douce et gourmande.\n\n💎 Qualité Calitefarm\nTêtes denses, résineuses, manucure clean, finition premium.\n\n🔥 Effet équilibré & puissant\nUplift, détente et vibes positives garanties.',                        tarifs: [
+                            { weight: '1g', price: 50.00 },
+                            { weight: '5g', price: 160.00 },
+                            { weight: '10g', price: 310.00 },
+                            { weight: '20g', price: 600.00 },
+                            { weight: '30g', price: 850.00 },
+                            { weight: '50g', price: 1100.00 }
+                        ]
                     }
                 ]
             }
@@ -305,7 +375,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Style inline pour correspondre à ton design
         backButton.style.cssText = `
             background: linear-gradient(180deg, black, transparent); 
-            border-bottom: 2px solid #e605c0;
+            border-bottom: 2px solid #7dc0ff;
             border-top: none; border-left: none; border-right: none;
             color: white; padding: 10px 15px; 
             border-radius: 10px; font-size: 1.1rem; 
@@ -454,13 +524,14 @@ document.addEventListener('DOMContentLoaded', function () {
             </button>
         </div>`).join('');
 
-        detailsContainer.innerHTML = `
-        <div class="name">${product.name}</div>
-        <div class="farm">${product.farm}</div>
-        ${product.description ? `<div style="margin-bottom:20px; color:#ccc;">${product.description}</div>` : ''} 
-        <h4 class="tarifs-title">💰 Tarifs disponibles :</h4>
-        <div class="tarifs-grid-container">${tarifsHTML}</div>
-        `;
+       // --- DANS TA FONCTION renderProductPage ---
+detailsContainer.innerHTML = `
+<div class="name">${product.name}</div>
+<div class="farm">${product.farm}</div>
+${product.description ? `<div class="product-description">${product.description}</div>` : ''} 
+<h4 class="tarifs-title">💰 Tarifs disponibles :</h4>
+<div class="tarifs-grid-container">${tarifsHTML}</div>
+`;
         showPage('page-product');
     }
 
@@ -885,12 +956,21 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         if (target.closest('#confirm-order-button')) {
-            const targetUsername = 'weedpunch6810'; 
+            // Ton numéro WhatsApp au format international (sans le + ni 00)
+            const phoneNumber = '33746565751'; 
+            
             let message = formatOrderMessage();
+            
+            // Nettoyage optionnel du message pour WhatsApp
             message = message.replace(/\*/g, '');
+            
             const encodedMessage = encodeURIComponent(message);
-            const telegramUrl = `https://t.me/${targetUsername}?text=${encodedMessage}`;
-            tg.openLink(telegramUrl);
+            
+            // Construction de l'URL WhatsApp
+            const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+            
+            // Ouverture du lien via l'API Telegram WebApp
+            tg.openLink(whatsappUrl);
         }
     });
 

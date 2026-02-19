@@ -113,7 +113,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            border: 1px solid #e046fe;
+            border: 1px solid #7dc0ff;
         }
 
         #page-loader img {
@@ -140,7 +140,7 @@
         /* --- Page d'accueil --- */
         .top-marquee {
             background-color: var(--tertiary-bg-color);
-            color: #e046fe;
+            color: #7dc0ff;
             padding: 8px 0;
             overflow: hidden;
             font-weight: 500;
@@ -189,7 +189,7 @@
             transform: translate(-50%, -50%);
             height: 14vh;
             border-radius: 25px;
-            box-shadow: 0px 0px 10px 2px #e046fe;
+            box-shadow: 0px 0px 10px 2px #7dc0ff;
         }
 
         #page-home .cart-button {
@@ -205,7 +205,7 @@
             /* MODIFIÉ pour l'afficher */
             align-items: center;
             justify-content: center;
-            box-shadow: 0px 0px 10px 2px #e046fe;
+            box-shadow: 0px 0px 10px 2px #7dc0ff;
         }
 
         #quality-filter {
@@ -272,7 +272,7 @@
             position: absolute;
             top: -5px;
             right: -5px;
-            background: #e81e9d;
+            background: #7dc0ff;
             color: white;
             border-radius: 50%;
             font-size: 0.7rem;
@@ -337,7 +337,7 @@
             width: 100%;
             border-radius: 20px;
             text-align: center;
-            border: 1px solid #e046fe;
+            border: 1px solid #7dc0ff;
     background: linear-gradient(45deg, black, transparent);
         }
 
@@ -372,8 +372,8 @@
             overflow: hidden;
             cursor: pointer;
             position: relative;
-            border: 2px solid #774364;
-            background: linear-gradient(#3d203c, #4a303a);
+            border: 2px solid #7dc0ff;
+    background: linear-gradient(#e6683cd6, #00c7bed1);
         }
 
         .card-badge {
@@ -422,19 +422,21 @@
             font-family: American Typewriter, serif	;
             font-size: 14px;
             margin-bottom: 2vh;
+            color: black;
         }
 
         .product-card .farm {
-            color: var(--hint-color);
+            color: #f8bd06;
             font-size: 0.8rem;
             text-align: center;
-            border-bottom: 1px solid grey;
+            border-bottom: 1px solid #f8bd06;
             margin-bottom: 5px;
         }
 
         .product-card .price {
             text-align: end;
             font-family: monospace;
+            color: black;
         }
 
         .no-results {
@@ -470,15 +472,15 @@
             border-radius: 20px;
             /* height: 5vh; */
             width: 12vh;
-            color: #480a36;
+            color: #012e51;
     padding: 1vh;
     border: none;
-    box-shadow: 0px 0px 10px 2px #e046fe;
+    box-shadow: 0px 0px 10px 2px #7dc0ff;
     cursor: pointer;
         }
 
         .nav-item.active {
-            color: #bd29fa;
+            color: #00c7be;
             background-color: #0000009c;
         }
 
@@ -507,7 +509,7 @@
         }
 
         .product-details .farm {
-            color: #ff1dd4;
+            color: #f09433;
         }
 
         .product-details .tarifs-title {
@@ -527,9 +529,9 @@
 
         .add-to-cart-btn {
             background: linear-gradient(black, transparent);
-            border: 1px solid #ff00d6fc;
-            border-radius: 8px;
-            color: #ff00d6fc;
+            border: 1px solid #00c7be;
+    border-radius: 8px;
+    color: #00c7be;
             width: 50%;
             height: 5vh;
             cursor: pointer;
@@ -582,7 +584,7 @@
         }
 
         .cart-item .price {
-            color: #cc36b2;
+            color: #7dc0ff;
             font-weight: 700;
             margin-bottom: 1vh;
         }
@@ -608,8 +610,8 @@
         }
 
         .cart-summary {
-            background: #8b1476a6;
-            color: white;
+            background: #7dc0ffb5;
+            color: #000000;
             padding: 15px;
             border-radius: 10px;
             margin-top: 20px;
@@ -652,8 +654,8 @@
         }
 
         .main-action-btn {
-            background: #8b1476;
-            color: white;
+            background: #7dc0ffcc;
+            color: #000;
             padding: 15px;
             border-radius: 10px;
             border: none;
@@ -768,18 +770,18 @@
 }
 
         /* --- AJOUTE CE STYLE POUR LA DESCRIPTION --- */
-        .product-description {
-            font-size: 0.95rem;
-            color: #ff0000;
-            margin-top: 15px;
-            margin-bottom: 20px;
-            line-height: 1.4;
-            border-top: 1px solid var(--tertiary-bg-color);
-            padding-top: 20px;
-            white-space: pre-wrap;
-            text-align: center;
-            font-family: "Georgia", serif;
-        }
+.product-description {
+    font-size: 0.95rem;
+    color: #ffffff; /* Ajusté pour la lisibilité */
+    margin-top: 15px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    border-top: 1px solid var(--tertiary-bg-color);
+    padding-top: 20px;
+    white-space: pre-wrap; /* INDISPENSABLE : Active les retours à la ligne */
+    text-align: left;     /* Mieux pour les listes d'arômes */
+    font-family: "Georgia", serif;
+}
 
         /* On retire le fond des items de tarif car la carte s'en charge */
         .tarif-item {
@@ -787,8 +789,8 @@
             display: flex;
             justify-content: center;
             border-radius: 20px;
-            background: linear-gradient(#3d203c, #4a303a);
-            border: 2px solid #ff00d62e;
+            background: linear-gradient(#e6683cbf, #7dc0ff99);
+    border: 2px solid #7dc0ff;
             width: 90%;
             height: 4vh;
         }
@@ -798,7 +800,7 @@
             visibility: hidden;
             /* Caché par défaut */
             min-width: 250px;
-            background-color:#3f223c;
+            background-color: #7dc0ffb8;
             color: #fff;
             text-align: center;
             border-radius: 10px;
@@ -863,7 +865,8 @@
         }
 
         .box-tarif .tarif-wieght {
-            border-bottom: 1px solid grey;
+            border-bottom: 1px solid black;
+            color: black;
             width: 80%;
             text-align: center;
             /* margin-bottom: 1vh; */
@@ -872,7 +875,8 @@
         }
 
         .box-tarif .tarif-price {
-            border-bottom: 1px solid grey;
+            border-bottom: 1px solid black;
+            color: black;
             width: 80%;
             text-align: center;
             /* margin-bottom: 1vh; */
@@ -931,7 +935,7 @@
             width: 15vh;
             margin-bottom: 6vh;
             border-radius: 25%;
-            box-shadow: 0px 0px 10px 2px #e046fe;
+            box-shadow: 0px 0px 10px 2px #7dc0ff;
             margin-top: 2vh;
         }
 
@@ -1646,8 +1650,8 @@
 
             <button id="confirmation-modify-order" class="secondary-action-btn">✏️ Modifier</button>
 
-            <button id="confirm-order-button" class="main-action-btn telegram-button" style="margin-top: 10px;">
-                🚀 Envoyer la commande sur Telegram
+            <button id="confirm-order-button" class="main-action-btn whatsapp-button" >
+                🚀 Envoyer la commande sur WhatsApp
             </button>
 
 
