@@ -7,7 +7,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // --- CONFIGURATION DES LIENS DE CONTACT (HUNTERCOFFEE) ---
   const contactLinks = [
-    { name: 'POTATO 🥔', url: 'https://duanym138.org/Huntercoffee', id: 'potato', className: 'potato', text: "POTATO 🥔" },
+{ name: 'CANAL TELEGRAM 📢', url: 'https://t.me/+-kF6ekclQm1hMDU0', id: 'canal-tg', className: 'telegram-canal', text: "CANAL TELEGRAM 📢" },   
+    { name: 'POTATO 🥔', url: 'https://tutuduanyu.org/huntercoffee9', id: 'potato', className: 'potato', text: "POTATO 🥔" },
     { name: 'INSTAGRAM 📸', url: 'https://www.instagram.com/huntercoffee75', id: 'instagram', className: 'instagram', text: "INSTAGRAM 📸" },
     { name: 'SIGNAL 🔵', url: 'https://signal.me/#eu/puN7l3zYNYtnkz4o41JmFDF02vNe2oyEZqAjGgjhKcjKL2nB5DdHCIXx9zDSahM7', id: 'signal', className: 'signal', text: "SIGNAL 🔵" },
     { name: 'LUFFA 🛡️', url: 'https://callup.luffa.im/c/62jB555fybc', id: 'luffa', className: 'luffa', text: "LUFFA 🛡️" },
@@ -28,12 +29,12 @@ document.addEventListener('DOMContentLoaded', function () {
         farms: [
             {
                 id: 'MOUSS',
-                name: '🧽 MOUSS',
+                name: 'MOUSSEUX 🍯',
                 badgeText: 'Classic Sift',
                 products: [
-                    {
+                    /* {
                         id: 'mouss-standard',
-                        name: 'Mousseux Premium',
+                        name: 'Jaune Mousseux',
                         flag: '🇲🇦',
                         farm: 'HUNTER SELECTION',
                         promoEligible: true,
@@ -41,12 +42,12 @@ document.addEventListener('DOMContentLoaded', function () {
                         image: 'ProductDry.jpg',
                         description: 'Texture parfaite, facile à effriter.',
                         tarifs: [{ weight: '10g', price: 40.00 }, { weight: '20g', price: 75.00 }]
-                    }
+                    } */
                 ]
             },
             {
                 id: 'FROZEN',
-                name: '🧊 FROZEN',
+                name: 'FROZEN 🧊',
                 badgeText: 'Fresh Frozen Tech',
                 products: [
                     {
@@ -89,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function () {
             },
             {
                 id: 'STATIC',
-                name: '⚡️ STATIC',
+                name: 'STATIC ⚡️',
                 badgeText: 'High Voltage',
                 products: [
                     {
@@ -149,6 +150,14 @@ document.addEventListener('DOMContentLoaded', function () {
                         ]
                     }
                 ]
+            },
+            {
+                id: 'STATICUsa',
+                name: 'STATIC USA 🇺🇸',
+                badgeText: 'High Voltage',
+                products: [
+                   
+                ]
             }
         ]
     },
@@ -164,7 +173,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 name: '🇺🇸 CALI U.S',
                 badgeText: 'Import USA',
                 products: [
-                    {
+                   /*  {
                         id: 'cali-us-1',
                         name: 'Blueberry Zkittlez',
                         flag: '🇺🇸',
@@ -174,7 +183,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         image: 'ProductCali.jpg',
                         description: 'Le vrai goût de Californie.',
                         tarifs: [{ weight: '3.5g', price: 60.00 }, { weight: '7g', price: 110.00 }]
-                    }
+                    } */
                 ]
             },
             {
@@ -182,7 +191,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 name: '🇨🇦 CALI CANADIENNE',
                 badgeText: 'Canada Grade A',
                 products: [
-                    {
+                   /*  {
                         id: 'cali-can-1',
                         name: 'Pink Kush',
                         flag: '🇨🇦',
@@ -192,7 +201,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         image: 'ProductCali.jpg',
                         description: 'Qualité canadienne supérieure.',
                         tarifs: [{ weight: '5g', price: 50.00 }, { weight: '10g', price: 90.00 }]
-                    }
+                    } */
                 ]
             }
         ]
