@@ -895,14 +895,12 @@
         }
 
         #page-info .contact-logo {
-            width: 100px;
-            height: 15vh;
-            width: 15vh;
-            margin-bottom: 6vh;
-            border-radius: 50%;
-            box-shadow: 0px 0px 10px 2px red;
-            margin-top: 2vh;
-        }
+            position: unset;
+            height: 14vh;
+            border-radius: 25px;
+            margin-bottom: 9vh;
+            box-shadow: 0px 0px 10px 2px #7dc0ff;
+}
 
         #page-info .contact-card {
             background: rgba(44, 44, 46, 0.8);
@@ -1190,9 +1188,6 @@
             opacity: 0.7;
         }
 
-        #nav-info {
-            display: none;
-        }
 
         /* --- NOUVEAU STYLE POUR LA GRILLE DES TARIFS --- */
 
@@ -1337,90 +1332,41 @@
     </div>
 
     <div id="page-info" class="page">
-        <div class="page-content">
-            <img src="Logo.jpg" alt="Logo" class="contact-logo">
-            <div class="contact-card">
-
-                <div class="accordion-container">
-                    <div class="accordion-item">
-                        <button class="accordion-header">
-                            <p style="
-                        height: 4vh;
-                        width: 4vh;
-                        font-size: 3vh;">🛵</p>
-                            <span>DELIVERY </span>
-                            <svg class="accordion-arrow" width="24" height="24" viewBox="0 0 24 24">
-                                <path fill="currentColor" d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z" />
-                            </svg>
-                        </button>
-                        <div class="accordion-content">
-                            <p>
-                                Service rapide et fiable disponible des 100€ de commande avec 20€ de frais de livraison
-                                dans Bordeaux Centre et varient suivant la distance !
-                                <br><br> 🏆 Frais offert pour le canal VIP 🏆
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <button class="accordion-header">
-                            <p style="
-                        height: 4vh;
-                        width: 4vh;
-                        font-size: 3vh;">🏢</p>
-                            <span>MEET-UP</span>
-                            <svg class="accordion-arrow" width="24" height="24" viewBox="0 0 24 24">
-                                <path fill="currentColor" d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z" />
-                            </svg>
-                        </button>
-                        <div class="accordion-content">
-                            <p>
-                                Adresse discrète dans le centre bosseur fiable et rapide !
-                                <br><br> Minimum 50€ de commande 🤑
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <button class="accordion-header">
-                            <p style="
-                        height: 4vh;
-                        width: 4vh;
-                        font-size: 3vh;">⏱️</p>
-                            <span>HORAIRES</span>
-                            <svg class="accordion-arrow" width="24" height="24" viewBox="0 0 24 24">
-                                <path fill="currentColor" d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z" />
-                            </svg>
-                        </button>
-                        <div class="accordion-content">
-                            <p>
-                                12H - 00h
-                                <br><br> 🏆 Accès au canal VIP après votre première commandes
-                            </p>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <button class="accordion-header">
-                            <p style="
-                        height: 4vh;
-                        width: 4vh;
-                        font-size: 3vh;">📦</p>
-                            <span>SHIPPING</span>
-                            <svg class="accordion-arrow" width="24" height="24" viewBox="0 0 24 24">
-                                <path fill="currentColor" d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z" />
-                            </svg>
-                        </button>
-                        <div class="accordion-content">
-                            <p>
-                                Colis sécuriser 2 a 3x sous vide plus mousse expansive, pour se qui concerne la France
-                                des frais de 20€ vous sont demander a partir de 100€ de commande par contre vous pouvez
-                                compter 40€ de frais pour les autres pays !
-                                <br><br>
-                                ✅ Payement uniquement en crypto ✅
-                            </p>
-                        </div>
-                    </div>
-                </div>
+        <div class="page-content" style="text-align: center; padding: 20px; font-family: 'Roboto', sans-serif;">
+            <img src="Logo.jpg" alt="Logo" class="contact-logo" >
+            
+            <div class="info-text-container" style="background: rgba(44, 44, 46, 0.8); border-radius: 20px; padding: 20px; border: 1px solid #7dc0ff; line-height: 1.6;">
+                <h2 style="color: #7dc0ff; margin-bottom: 15px;">BONJOURS 👋</h2>
+                
+                <p><strong>BIENVENUE CHEZ 🇲🇦HUNTERCOFFEE🇺🇸</strong></p>
+                
+                <p>Nous vous proposons une large sélection de produits 🇱🇷 et 🇲🇦.<br>
+                Quantité et Qualité assuré</p>
+    
+                <p>📍 <strong>Meet-up Banlieue 24h/24</strong><br>
+                <span style="font-size: 0.9rem; color: #8e8e93;">(adresse discrète, change souvent)</span></p>
+    
+                <p>📥 Prise de commande 24h/24<br>
+                🆗️ Validation entre 08h - 00h<br>
+                🛵 Livraison 12H - 00H</p>
+    
+                <p>🤳✅️ <strong>Première commande : vérification CNI obligatoire</strong></p>
+    
+                <hr style="border: 0; border-top: 1px solid #3a3a3c; margin: 15px 0;">
+    
+                <p>🛵 <strong>Livraison</strong><br>
+                Île de France et région voisine<br>
+                <span style="font-size: 0.85rem; color: #8e8e93;">(Un minimum de commande sera demandée pour certains départements.)</span></p>
+    
+                <p>🏙️ <strong>Meet-up Banlieue parisienne</strong><br>
+                Minimum de commande : 50💸</p>
+    
+                <p>🚚 <strong>Envoi discret</strong><br>
+                Sans odeur et discret<br>
+                Minimum de commande : 80💸</p>
+    
+                <p>💶🏧 <strong>Paiement accepté</strong><br>
+                Liquide ou Crypto</p>
             </div>
         </div>
     </div>
