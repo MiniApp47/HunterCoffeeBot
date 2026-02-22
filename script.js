@@ -956,6 +956,10 @@ ${product.description ? `<div class="product-description">${product.description}
         }
 
         if (target.closest('#checkout-button')) {
+            // 1. Vibration haptique pour confirmer le clic
+            tg.HapticFeedback.notificationOccurred('warning'); 
+            
+            // 2. On passe directement à la page de confirmation sans popup native
             renderConfirmation();
         }
 
