@@ -90,9 +90,27 @@ document.addEventListener('DOMContentLoaded', function () {
             },
             {
                 id: 'STATIC',
-                name: 'STATIC ⚡️',
+                name: 'STATIC 🇲🇦⚡️',
                 badgeText: 'High Voltage',
                 products: [
+                    {
+                        id: 'Tangie 🍊',
+                        name: 'Tangie 🍊',
+                        flag: '🇲🇦',
+                        farm: 'PJS Farm 🌿',
+                        promoEligible: true,
+                        type: 'STATIC',
+                        image: 'ProductTangie.jpg',
+                        video: 'VideoTangie.mov',
+                        description: 'Plasma Static ⚡❄️ \n\n Une décharge d’agrumes sous haute tension. ⚡\n\n Issu d’un travail de précision signé PJS Farm, Plasma Static Tangie repousse les standards avec une extraction maîtrisée et un rendu visuel aussi pur que spectaculaire.\n\n  Dès l’ouverture 💥, le profil aromatique explose : zeste d’orange fraîche 🍊, mandarine juteuse, touches sucrées et légèrement acidulées qui rappellent un jus d’agrumes fraîchement pressé. La signature Tangie s’exprime pleinement — vive, lumineuse et incroyablement addictive.\n\n La texture est fine, brillante et aérienne ✨, avec un aspect statique saisissant qui témoigne d’un produit hautement qualitatif. Chaque détail respire la fraîcheur, la précision et le savoir-faire artisanal.\n\nPlasma Static Tangie, c’est l’équilibre parfait entre intensité aromatique, élégance visuelle et pureté extrême.\n Un produit vibrant, énergisant et résolument premium ⚡🍊💎',
+                        tarifs: [
+                            { weight: '1g', price: 35.00 },
+                            { weight: '5g', price: 150.00 },
+                            { weight: '10g', price: 250.00 },
+                            { weight: '20g', price: 480.00 },
+                            { weight: '50g', price: 1000.00 }
+                        ]
+                    },
                 ]
             },
             {
@@ -201,6 +219,40 @@ document.addEventListener('DOMContentLoaded', function () {
                         description: 'Qualité canadienne supérieure.',
                         tarifs: [{ weight: '5g', price: 50.00 }, { weight: '10g', price: 90.00 }]
                     } */
+                ]
+            }
+        ]
+    },
+    {
+        id: 'VAPE',
+        name: '🍃 VAPE',
+        type: '🍃 VAPE',
+        quality: '🍃 VAPE',
+        image: 'CategVape.png',
+        farms: [
+            {
+                id: '🌬 PUFF 🌬',
+                name: '🌬 PUFF 🌬',
+                badgeText: 'THC',
+                products: [
+                    {
+                        id: '95THC',
+                        name: '🔥 CALI PUFF 🔥',
+                        flag: '🇺🇸',
+                        farm: 'USA IMPORT ⛵',
+                        promoEligible: true,
+                        type: 'Vape',
+                        image: 'ProductVape.png',
+                        video: 'VideoVape1.mov',
+                        description: '🚫 95% THC 🌬 \n\n  Puissance. Style. Exclusivité.\n Plonge dans l’univers Cali Puff, une expérience haut de gamme pensée pour les amateurs de sensations fortes et de produits d’exception. Avec une concentration impressionnante de 95% de THC, Cali Puff s’impose comme une référence ultime en matière d’intensité et de pureté.\n\n 💎 Design iconique & audacieux\n Chaque Cali Puff est présenté dans un tube élégant et protecteur, avec un visuel percutant inspiré de la culture street et du luxe californien. Un produit qui attire immédiatement l’œil et affirme son caractère premium dès le premier regard.\n\n 🚀 Performance extrême\n Conçu pour les connaisseurs, Cali Puff offre une puissance exceptionnelle, destinée à ceux qui recherchent une expérience intense, rapide et marquante. Un concentré de savoir-faire pour un effet maximal.\n\n  💼 Format pratique & discret\n Facile à transporter, parfaitement protégé, chaque puff est prêt à accompagner les moments les plus exclusifs. Que ce soit pour la collection ou l’expérience, Cali Puff ne laisse rien au hasard.\n\n 🌴 L’esprit Cali, sans compromis\n Cali Puff incarne l’attitude californienne : audace, liberté et excellence.  \n\n 🌈 Deux profils aromatiques exclusifs :  \n\n 🔵 Framboise Bleue – Une explosion fruitée, sucrée et légèrement acidulée. Une saveur intense et vibrante qui séduit dès la première note.  \n\n 🍓 Fraise – Framboise – Myrtille – Un mélange gourmand et harmonieux de fruits rouges, combinant douceur, fraîcheur et profondeur aromatique.  \n ⚠️ Produit ultra-puissant – réservé aux utilisateurs expérimentés.',
+                        tarifs: [
+                            { weight: '1', price: 80.00 },
+                            { weight: '2', price: 150.00 },
+                            { weight: '3', price: 210.00 },
+                            { weight: '4', price: 260.00 },
+                            { weight: '5', price: 300.00 }
+                        ]
+                    }
                 ]
             }
         ]
