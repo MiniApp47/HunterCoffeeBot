@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 name: 'FROZEN 🧊',
                 badgeText: 'Fresh Frozen Tech',
                 products: [
-                    {
+                   /*  {
                         id: 'frozen-gmo-marocain',
                         name: '🌿 GMO – Marocain',
                         flag: '🇲🇦',
@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             { weight: '50g', price: 400.00 },
                             { weight: '100g', price: 700.00 }
                         ]
-                    },
+                    }, */
                     {
                         id: 'grap-gaz-frozen-premium',
                         name: '🍇GRAP GAZ⛽️X BLEU PINT🫐',
