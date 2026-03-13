@@ -28,6 +28,31 @@ document.addEventListener('DOMContentLoaded', function () {
         image: 'CategHash.jpg', 
         farms: [
             {
+                id: 'Extraction',
+                name: 'Extraction 🧬',
+                badgeText: 'Ice-O-Lator',
+                products: [
+                    {
+                        id: 'RUNTZ 🍬❄️',
+                        name: 'RUNTZ 🍬❄️',
+                        flag: '🇲🇦',
+                        farm: 'HASHPOWER – ICE-O-LATOR FARM 👨🏽‍🔬',
+                        promoEligible: true,
+                        type: 'Hash',
+                        image: 'ProductIceO.jpg',
+                        video: 'VideoIceO.mov',
+                        description: 'Plonge dans l’excellence du hash moderne avec HASHPOWER Ice-O-Lator Farm – Runtz, une extraction premium conçue pour les vrais connaisseurs. Issue d’une sélection rigoureuse de fleurs Runtz, cette Ice-O-Lator capture toute la puissance aromatique et la richesse des trichomes grâce à une extraction à l’eau glacée qui préserve l’essence pure de la plante.\n\n ✨ Profil & Arômes\n\n La Runtz révèle un bouquet intense et gourmand :\n  • 🍭 notes sucrées et fruitées rappelant les bonbons\n  • 🍇 touches tropicales et crémeuses\n  • 🌿 finale résineuse et légèrement épicée \n Chaque bouffée offre une expérience riche, douce et extrêmement terpènique.  \n\n  ❄️ Extraction Ice-O-Lator  \n\n  La méthode Ice-O-Lator permet de séparer les trichomes à froid pour produire un hash : \n   • ultra pur \n   • riche en terpènes  \n   • texture sableuse à légèrement collante  \n   • fusion lente et propre   \n Résultat : une qualité supérieure avec une puissance et un goût incomparables.    \n\n 🔥 Effets  \n\n La Runtz est réputée pour son équilibre parfait : \n  • montée euphorique et créative \n  • relaxation profonde du corps \n  • sensation smooth et durable  \n Idéal pour chiller, créer ou partager un moment premium.  \n\n 🧊 Signature HASHPOWER \n  • 🌱 100 % Single Source \n  • ❄️ extraction Ice-O-Lator artisanale \n  • 💎 qualité haut de gamme \n  • 🔒 drop limité   \n HASHPOWER – Runtz Ice-O-Lator : la rencontre entre puissance, pureté et saveurs légendaires.',
+                        tarifs: [
+                            { weight: '1g', price: 35.00 }, 
+                            { weight: '5g', price: 160.00 },
+                            { weight: '10g', price: 260.00 }, 
+                            { weight: '20g', price: 500.00 }, 
+                            { weight: '50g', price: 1000.00 }
+                    ]
+                    }
+                ]
+            },
+            {
                 id: 'MOUSS',
                 name: 'MOUSSEUX 🍯',
                 badgeText: 'Classic Sift',
