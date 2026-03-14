@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // --- CONFIGURATION DES LIENS DE CONTACT (HUNTERCOFFEE) ---
   const contactLinks = [
-    { name: 'CANAL TELEGRAM 📢', url: 'https://t.me/+-kF6ekclQm1hMDU0', id: 'canal-tg', className: 'telegram-canal', text: "CANAL TELEGRAM 📢" },   
+    { name: 'CANAL TELEGRAM 📢', url: 'https://t.me/+InC4hPYn7L84ZTU0', id: 'canal-tg', className: 'telegram-canal', text: "CANAL TELEGRAM 📢" },   
     { name: 'POTATO 🥔', url: 'https://tutuduanyu.org/huntercoffee9', id: 'potato', className: 'potato', text: "POTATO 🥔" },
     { name: 'INSTAGRAM 📸', url: 'https://www.instagram.com/huntercoffee75', id: 'instagram', className: 'instagram', text: "INSTAGRAM 📸" },
     { name: 'SIGNAL 🔵', url: 'https://signal.me/#eu/puN7l3zYNYtnkz4o41JmFDF02vNe2oyEZqAjGgjhKcjKL2nB5DdHCIXx9zDSahM7', id: 'signal', className: 'signal', text: "SIGNAL 🔵" },
