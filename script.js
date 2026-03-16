@@ -215,17 +215,23 @@ document.addEventListener('DOMContentLoaded', function () {
                 name: '🇺🇸 CALI U.S',
                 badgeText: 'Import USA',
                 products: [
-                   /*  {
-                        id: 'cali-us-1',
-                        name: 'Blueberry Zkittlez',
+                    {
+                        id: '🌈 Runtz Californienne',
+                        name: '🌈 Runtz Californienne',
                         flag: '🇺🇸',
-                        farm: 'USA IMPORT',
+                        farm: 'Premium Quality 🏆',
                         promoEligible: true,
                         type: 'Weed',
                         image: 'ProductCali.jpg',
-                        description: 'Le vrai goût de Californie.',
-                        tarifs: [{ weight: '3.5g', price: 60.00 }, { weight: '7g', price: 110.00 }]
-                    } */
+                        video: 'VideoCali.mov',
+                        description: 'La Runtz californienne est une variété d’exception qui attire immédiatement l’œil avec ses têtes compactes, colorées et ultra résineuses. On y retrouve de magnifiques nuances vert clair, parfois violettes, recouvertes d’une épaisse couche de trichomes brillants qui témoignent de sa qualité premium. ✨🌿  \n\n 👃 Arômes & Goût\n Dès l’ouverture, un parfum sucré et fruité envahit l’air. La Runtz est célèbre pour son goût de bonbons fruités, mêlant des notes de fruits tropicaux, de sucre et de crème douce. Une fumée douce, gourmande et très agréable, parfaite pour les amateurs de saveurs sucrées. 🍬🍓🥭 \n\n ⚡ Effets\n  La Runtz offre un équilibre parfait entre euphorie et détente.\n   🧠 High mental positif – sensation de bien-être et d’euphorie\n  😌 Relaxation corporelle – détente progressive et agréable \n\n  💎 Une variété venue de Californie, très recherchée pour son goût unique, sa puissance et la beauté de ses buds. Parfaite pour ceux qui veulent une expérience savoureuse et de haute qualité.',
+                        tarifs: [
+                            { weight: '1 bags 3.5G', price: 50.00 }, 
+                            { weight: '2 bags', price: 100.00 }, 
+                            { weight: '3 bags', price: 130.00 }, 
+                            { weight: '5 bags', price: 220.00 }
+                        ]
+                    }
                 ]
             },
             {
