@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     {
                         id: 'RUNTZ 🍬❄️',
                         name: 'RUNTZ 🍬❄️',
-                        flag: '🇲🇦',
+                        flag: '🇺🇸',
                         farm: 'HASHPOWER – ICE-O-LATOR FARM 👨🏽‍🔬',
                         promoEligible: true,
                         type: 'Hash',
